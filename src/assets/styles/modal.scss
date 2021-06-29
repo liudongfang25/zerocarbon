@@ -1,0 +1,87 @@
+.el-dialog {
+
+  .el-dialog__title,
+  .dialog-footer .el-button {
+    display: block;
+  }
+
+  .el-dialog__footer .dialog-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+
+// 提交申报二级提示
+.secondary-cartridge-modal {
+  border-radius: .1rem;
+
+  .el-dialog__body {
+    padding: 0 .4rem 0.3rem 0.4rem;
+    font-family: MicrosoftYaHei;
+    font-size: .16rem;
+
+    .dialog-close-img {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .dialog-content-p {
+      margin: 0.4rem 0;
+      color: #333333;
+    }
+
+    .dialog-footer {
+      font-family: MicrosoftYaHei;
+      color: #FFFFFF;
+
+      .el-button.w100 {
+        font-size: 0.16rem;
+        line-height: .28rem;
+        background: #3975FF;
+      }
+    }
+  }
+
+  .dialog-title {
+    font-size: .24rem;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  // app端通知信息
+  .appointment-message-info {
+    font-size: 0.16rem;
+    font-family: MicrosoftYaHei;
+    color: #333333;
+  }
+}
+
+// 删除附件
+.delete-file-modal {
+  .el-dialog__body {
+    padding: 0;
+    overflow: hidden;
+
+    .dialog-footer {
+      border-top: 1px solid #e1e2e3;
+      color: #333333 !important;
+      margin-top: 0.45rem;
+
+      .w100 {
+        height: 0.56rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .primary-btn {
+        background: #3975FF;
+        color: #FFFFFF;
+        border-radius: 0px 0px 10px 0px;
+      }
+    }
+  }
+}
